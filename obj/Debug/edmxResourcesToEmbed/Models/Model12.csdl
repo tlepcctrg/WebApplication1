@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="testModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="testEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Table_2" EntityType="testModel1.Table_2" />
+  </EntityContainer>
+  <EntityType Name="Table_2">
+    <Key>
+      <PropertyRef Name="Seq" />
+    </Key>
+    <Property Name="Seq" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="data" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="balance" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+</Schema>

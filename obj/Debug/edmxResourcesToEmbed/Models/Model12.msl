@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="testModel1StoreContainer" CdmEntityContainer="testEntities2">
+    <EntitySetMapping Name="Table_2">
+      <EntityTypeMapping TypeName="testModel1.Table_2">
+        <MappingFragment StoreEntitySet="Table_2">
+          <ScalarProperty Name="balance" ColumnName="balance" />
+          <ScalarProperty Name="data" ColumnName="data" />
+          <ScalarProperty Name="Seq" ColumnName="Seq" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
